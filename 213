@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Alderstest</title>
+</head>
+<body>
+  <h1>Er du gammel nok?</h1>
+  <input type="number" id="alder" placeholder="Skriv inn alder">
+  <button onclick="sjekkAlder()">Sjekk</button>
+  <p id="resultat"></p>
+
+  <script>
+    function sjekkAlder() {
+      const alder = Number(document.getElementById("alder").value);
+      const minAlder = 18; // kan endres til det stedet krever
+      if (alder >= minAlder) {
+        document.getElementById("resultat").innerText = "Velkommen inn!";
+      } else {
+        document.getElementById("resultat").innerText = "Beklager, du er for ung.";
+      }
+    }
+  </script>
+</body>
+</html>
+
+  <script>
+    let sum = 0;
+    for (let i = 1; i <= 100; i++) {
+      sum += i;
+    }
+    document.getElementById("sum").innerText = "Summen er " + sum;
+  </script>
+
+  
+  <script>
+    let sum = 0;
+    for (let i = 1; i <= 100; i++) {
+      sum += i;
+    }
+    document.getElementById("sum").innerText = "Summen er " + sum;
+  </script>
+
