@@ -1,0 +1,12 @@
+h1{
+    color: aquamarine;
+}
+
+h1:hover{
+    color: tan;
+}
+
+a:hover{
+    color: tan;
+    transition:ease-in-out 0.3;
+}
